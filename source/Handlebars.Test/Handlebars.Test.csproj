@@ -126,6 +126,12 @@
     <Content Include="ViewEngine\Casper-master\assets\js\index.js" />
     <Content Include="ViewEngine\Casper-master\assets\js\jquery.fitvids.js" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="ViewEngine\Casper-master\assets\css\screen.css" />
+    <Content Include="ViewEngine\Casper-master\assets\fonts\casper-icons.svg" />
+    <Content Include="ViewEngine\Casper-master\assets\js\index.js" />
+    <Content Include="ViewEngine\Casper-master\assets\js\jquery.fitvids.js" />
+  </ItemGroup>
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
