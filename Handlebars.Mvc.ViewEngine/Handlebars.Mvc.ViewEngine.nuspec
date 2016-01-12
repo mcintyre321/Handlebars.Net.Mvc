@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>Handlebars.Mvc.ViewEngine</title>
+    <authors>Harry McIntyre</authors>
+    <owners>Harry McIntyre</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/mcintyre321/Handlebars.Mvc.ViewEngine</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Handlebars.net server side templating engine for ASP.NET MVC 
+    </description>
+    <copyright>Copyright 2014</copyright>
+    <tags>Handlebars, MVC, ViewEngine</tags>
+  </metadata>
+</package>
