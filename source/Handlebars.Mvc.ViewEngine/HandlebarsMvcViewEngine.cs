@@ -16,6 +16,9 @@ namespace HandlebarsDotNet.Mvc.ViewEngine
 
             this.PartialViewLocationFormats = new string[]
             {"~/Views/{1}/{0}.hbs", "~/Views/partials/{0}.hbs"};
+
+            this.MasterLocationFormats = new string[] { "~/Views/{1}/{0}.hbs", "~/Views/layouts/{0}.hbs" }; ; //Masters are referenced inside views
+
         }
 
         protected override IView CreatePartialView

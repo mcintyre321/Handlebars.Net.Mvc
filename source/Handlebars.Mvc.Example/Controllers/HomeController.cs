@@ -12,7 +12,8 @@ namespace HandlebarsDotNet.Mvc.Example.Controllers
                 {
                     title = "My Post Title",
                     image = "/someimage.png",
-                    post_class = "somepostclass"
+                    post_class = "somepostclass",
+                    
                 }
             });
         }

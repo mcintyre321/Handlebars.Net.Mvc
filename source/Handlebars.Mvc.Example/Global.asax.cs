@@ -1,11 +1,10 @@
 ﻿using System.Linq;
+using System.Runtime.InteropServices;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
-using HandlebarsDotNet;
 using HandlebarsDotNet.Mvc.ViewEngine;
-using Handlebars = HandlebarsDotNet.Handlebars;
 
 namespace HandlebarsDotNet.Mvc.Example
 {
@@ -24,11 +23,11 @@ namespace HandlebarsDotNet.Mvc.Example
         {
             ViewEngines.Engines.Clear();
 
-            HandlebarsConfiguration config = new HandlebarsConfiguration
+            var config = new HandlebarsConfiguration()
             {
                 FileSystem = new HandlebarsMvcViewEngineFileSystem(),
             };
-            var handlebars = HandlebarsDotNet.Handlebars.Create(config);
+            var handlebars = Handlebars.Create(config);
 
             /* Helpers need to be registered up front - these are dummmy implementations of the ones used in Ghost*/
             handlebars.RegisterHelper("asset", (writer, context, arguments) => writer.Write("asset:" + string.Join("|", arguments)));

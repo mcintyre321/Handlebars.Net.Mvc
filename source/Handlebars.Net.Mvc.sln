@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Handlebars.Test", "Handlebars.Test\Handlebars.Test.csproj", "{2BD48FB6-C852-4141-B734-12E501B1D761}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B3E309E5-67DF-44B2-9AAB-7D2463F04487}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Handlebars.Mvc.ViewEngine", "Handlebars.Mvc.ViewEngine\Handlebars.Mvc.ViewEngine.csproj", "{FD1CB0C5-FC13-4C20-AD5A-81F8410045DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Handlebars.Mvc.Example", "Handlebars.Mvc.Example\Handlebars.Mvc.Example.csproj", "{AA50827E-751A-4AD6-886E-2B42B056DBE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BD48FB6-C852-4141-B734-12E501B1D761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD48FB6-C852-4141-B734-12E501B1D761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD48FB6-C852-4141-B734-12E501B1D761}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2BD48FB6-C852-4141-B734-12E501B1D761}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2BD48FB6-C852-4141-B734-12E501B1D761}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2BD48FB6-C852-4141-B734-12E501B1D761}.Debug|x86.Build.0 = Debug|Any CPU
+		{2BD48FB6-C852-4141-B734-12E501B1D761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD48FB6-C852-4141-B734-12E501B1D761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD48FB6-C852-4141-B734-12E501B1D761}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2BD48FB6-C852-4141-B734-12E501B1D761}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2BD48FB6-C852-4141-B734-12E501B1D761}.Release|x86.ActiveCfg = Release|Any CPU
+		{2BD48FB6-C852-4141-B734-12E501B1D761}.Release|x86.Build.0 = Release|Any CPU
+		{FD1CB0C5-FC13-4C20-AD5A-81F8410045DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1CB0C5-FC13-4C20-AD5A-81F8410045DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1CB0C5-FC13-4C20-AD5A-81F8410045DB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{FD1CB0C5-FC13-4C20-AD5A-81F8410045DB}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{FD1CB0C5-FC13-4C20-AD5A-81F8410045DB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FD1CB0C5-FC13-4C20-AD5A-81F8410045DB}.Debug|x86.Build.0 = Debug|Any CPU
+		{FD1CB0C5-FC13-4C20-AD5A-81F8410045DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1CB0C5-FC13-4C20-AD5A-81F8410045DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1CB0C5-FC13-4C20-AD5A-81F8410045DB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{FD1CB0C5-FC13-4C20-AD5A-81F8410045DB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{FD1CB0C5-FC13-4C20-AD5A-81F8410045DB}.Release|x86.ActiveCfg = Release|Any CPU
+		{FD1CB0C5-FC13-4C20-AD5A-81F8410045DB}.Release|x86.Build.0 = Release|Any CPU
+		{AA50827E-751A-4AD6-886E-2B42B056DBE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA50827E-751A-4AD6-886E-2B42B056DBE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA50827E-751A-4AD6-886E-2B42B056DBE0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{AA50827E-751A-4AD6-886E-2B42B056DBE0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{AA50827E-751A-4AD6-886E-2B42B056DBE0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AA50827E-751A-4AD6-886E-2B42B056DBE0}.Debug|x86.Build.0 = Debug|Any CPU
+		{AA50827E-751A-4AD6-886E-2B42B056DBE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA50827E-751A-4AD6-886E-2B42B056DBE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA50827E-751A-4AD6-886E-2B42B056DBE0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{AA50827E-751A-4AD6-886E-2B42B056DBE0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{AA50827E-751A-4AD6-886E-2B42B056DBE0}.Release|x86.ActiveCfg = Release|Any CPU
+		{AA50827E-751A-4AD6-886E-2B42B056DBE0}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = VisualStudio
+		$1.inheritsScope = text/plain
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.IndentSwitchBody = True
+		$2.IndentBlocksInsideExpressions = True
+		$2.AnonymousMethodBraceStyle = NextLine
+		$2.PropertyBraceStyle = NextLine
+		$2.PropertyGetBraceStyle = NextLine
+		$2.PropertySetBraceStyle = NextLine
+		$2.EventBraceStyle = NextLine
+		$2.EventAddBraceStyle = NextLine
+		$2.EventRemoveBraceStyle = NextLine
+		$2.StatementBraceStyle = NextLine
+		$2.ElseNewLinePlacement = NewLine
+		$2.CatchNewLinePlacement = NewLine
+		$2.FinallyNewLinePlacement = NewLine
+		$2.WhileNewLinePlacement = DoNotCare
+		$2.ArrayInitializerWrapping = DoNotChange
+		$2.ArrayInitializerBraceStyle = NextLine
+		$2.BeforeMethodDeclarationParentheses = False
+		$2.BeforeMethodCallParentheses = False
+		$2.BeforeConstructorDeclarationParentheses = False
+		$2.NewLineBeforeConstructorInitializerColon = NewLine
+		$2.NewLineAfterConstructorInitializerColon = SameLine
+		$2.BeforeDelegateDeclarationParentheses = False
+		$2.NewParentheses = False
+		$2.SpacesBeforeBrackets = False
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.DotNetNamingPolicy = $3
+		$3.DirectoryNamespaceAssociation = None
+		$3.ResourceNamePolicy = FileFormatDefault
+		version = 1.0.0
+	EndGlobalSection
+EndGlobal
